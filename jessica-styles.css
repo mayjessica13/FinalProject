@@ -41,7 +41,7 @@ nav a:hover {
 	border-radius: 5px;
 }
 
-.main-head {
+.main-head, .head {
 	margin-left: 30px;
 }
 
@@ -98,22 +98,28 @@ figcaption {
 	padding-bottom: 20px;
 }
 
-.holland, .england, .scotland, .iceland {
+.hollandpic, .englandpic, .scotlandpic, .icelandpic {
 	padding-top: 15px;
 	padding-bottom: 15px;
+
 }
 
-.holland {
-	padding-right: 30px;
-	margin-left: 
+.hollandpic {
+	padding-right: 30px; 
 }
 
-.england {
+.englandpic {
 	padding-right: 30px;
 }
 
-.scotland {
+.scotlandpic {
 	padding-right: 30px;
+}
+
+#hollandsec, #englandsec, #scotlandsec, #icelandsec {
+	margin-left: 30px;
+	height: 1000px;
+	width: 100%;
 }
 
 
