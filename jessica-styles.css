@@ -104,24 +104,43 @@ figcaption {
 
 }
 
-.hollandpic {
+.hollandpic, .englandpic, .scotlandpic {
 	padding-right: 30px; 
 }
 
-.englandpic {
-	padding-right: 30px;
-}
-
-.scotlandpic {
-	padding-right: 30px;
-}
-
 #hollandsec, #englandsec, #scotlandsec, #icelandsec {
-	margin-left: 30px;
-	height: 1000px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: auto;
 	width: 100%;
 }
 
+#hollandsec {
+	background-color: #CFCFDF;
+}
+
+#englandsec {
+	background-color: #B4B2D5;
+}
+
+#scotlandsec {
+	background-color: #6E6BA6;
+}
+
+#icelandsec {
+	background-color: #9E9CBD;
+}
+
+#hollandsec a, #englandsec a, #scotlandsec a, #icelandsec a {
+	text-decoration: none;
+	color: black;
+}
+
+#hollandsec a:hover, #englandsec a:hover, #scotlandsec a:hover, #icelandsec a:hover {
+	text-decoration: none;
+	color: purple;
+}
 
 
 
