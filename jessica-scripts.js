@@ -23,4 +23,10 @@ $(document).ready(function() {
 		++i; }, 
 		// set the image time to 5000ms 
 		5000 );									
+
+
+	$(".card").flip({
+		forceHeight: true,
+		trigger: 'click'});
+
 });
