@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	
 	// define array of image paths (src) and captions (figcaption) 
-	var images = [ {src:"images/ascott.jpg", figcaption:"Ascott House, Buckinghamshire, England"}, {src:"images/amsterdam-canals.jpg", figcaption:"Amsterdam canals"}, {src:"images/lochleven-castle.jpg", figcaption:"Lochleven Castle, Perthshire, Scotland"}, {src:"images/blue-lagoon.jpg", figcaption:"Blue Lagoon, Iceland"} ]; 
+	var images = [ {src:"images/ascott.jpg", figcaption:"Ascott House, Buckinghamshire, England"}, {src:"images/cinqueterre.jpg", figcaption:"Riomaggiore, Cinque Terre, Italy"}, {src:"images/gullfoss.jpg", figcaption:"Gullfoss Waterfall, Iceland"}, {src:"images/amsterdam-canals.jpg", figcaption:"Amsterdam canals"}, {src:"images/santorini.jpg", figcaption:"Santorini, Greece"}, {src:"images/eiffeltower.jpg", figcaption:"Eiffel Tower, Paris, France"}, {src:"images/lochleven-castle.jpg", figcaption:"Lochleven Castle, Perthshire, Scotland"}, {src:"images/florence.jpg", figcaption:"The Duomo, Florence, Italy"}, {src:"images/blue-lagoon.jpg", figcaption:"Blue Lagoon, Iceland"}, {src:"images/rome.jpg", figcaption:"The Colosseum, Rome, Italy"}, {src:"images/spain.jpg", figcaption:"Barcelona, Spain"} ]; 
 		// index to select item in array 
 		var i=0; 
 		// use the jQuery function ($) to select the <img> and <figcaption> by id 
@@ -23,4 +23,10 @@ $(document).ready(function() {
 		++i; }, 
 		// set the image time to 5000ms 
 		5000 );									
+
+
+	$(".card").flip({
+		forceHeight: true,
+		trigger: 'click'});
+
 });
