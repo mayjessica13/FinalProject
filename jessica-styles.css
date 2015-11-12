@@ -71,18 +71,22 @@ figcaption {
 }
 
 .europe {
+	height: auto;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.europe img {
 	height: 400px;
-	margin-left: 200px;
 	margin-top: 30px;
 	float: left;
 }
 
 .intro {
 	height: 400px;
-	width: 45%;
+	width: 50%;
 	padding-left: 50px;
-	margin-right: 100px;
-	margin-top: 50px;
+	margin-top: 30px;
 	float: left;
 }
 
@@ -98,6 +102,11 @@ figcaption {
 	padding-bottom: 20px;
 }
 
+.short {
+	font-size: 13px;
+	margin-left: 700px;
+}
+
 .hollandpic, .englandpic, .scotlandpic, .icelandpic {
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -107,90 +116,224 @@ figcaption {
 	padding-right: 30px; 
 }
 
-/*#hollandsec, #englandsec, #scotlandsec, #icelandsec {
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	height: auto;
-	width: 100%;
-}
-
-#hollandsec {
-	background-color: #CFCFDF;
-}
-
-#englandsec {
-	background-color: #B4B2D5;
-}
-
-#scotlandsec {
-	background-color: #6E6BA6;
-}
-
-#icelandsec {
-	background-color: #9E9CBD;
-}
-
-#hollandsec a, #englandsec a, #scotlandsec a, #icelandsec a {
+.hollandsec a, .englandsec a, .scotlandsec a, .icelandsec a {
 	text-decoration: none;
 	color: black;
 }
 
-#hollandsec a:hover, #englandsec a:hover, #scotlandsec a:hover, #icelandsec a:hover {
+.hollandsec a:hover, .englandsec a:hover, .scotlandsec a:hover, .icelandsec a:hover {
 	text-decoration: none;
 	color: purple;
 }
 
-.north-img, .north-text {
-	width: 50%;
-	float: left;
+.hollandsec, .englandsec, .scotlandsec, .icelandsec {
+	width: 800px;
+	margin: 0 auto;
 }
-
-.north-img img {
-	height: 300px;
-	padding: 10px 20px;
-}
-
-.north-text p{
-	height: 300px;
-	padding: 10px 20px;
-}*/
 
 #card {
-	margin:	20px 20px;
+	margin-top: 20px;
 	display: block;
 }
 
 .front {
-	height: 450px;
+	height: 426px;
 	padding: 10px 10px;
 }
 
 .back {
-	height: 450px;
-	width: auto;
+	height: 400px;
+	width: 760px;
+}
+
+.back p {
+	height: 400px;
+	width: 760px;
 	padding: 20px 20px;
 	background-color: #FCF6F6;
 }
 
-.back p {
-	height: 450px;
-	width:	500px;
+.hidden {
+	display: none;
 }
 
-/*@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
 	.image-box {
-		
+		width: 750px;
+		height: auto;
+		margin: 0 auto;
 	}	
 
-	#rotate-img {
+	figure, #rotate-img {
+		height: 400px;
 		width: auto;
 	}
-}*/
 
+	.top {
+		height: 360px;
+	}
 
-@media screen and (max-width: 480px) {
+	.europe img{
+		height: 300px;
+		margin-left: 100px;
+	}
+
+	.intro {
+		height: 300px;
+		width: 35%;
+		margin-top: 10px;
+	}
+
+	.icons {
+		width: 800px;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.hollandpic, .englandpic, .icelandpic {
+		height: 250px;
+	}
+
+	.scotlandpic {
+		height: 200px;
+	}
+
+	.hollandsec, .englandsec, .scotlandsec, .icelandsec {
+	width: 820px;
+	margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.main-head, .main-text {
+		margin-right: 10px;
+	}
+
+	.image-box {
+		width: 470px;
+		height: auto;
+		margin-left: 10px;
+	}
+
+	figure, #rotate-img {
+		height: 300px;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	.icons {
+		width: 500px;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.hollandpic, .englandpic, .icelandpic {
+		height: 150px;
+	}
+
+	.scotlandpic {
+		height: 150px;
+	}
+
+	.card {
+		display: none;
+	}
+
+	.hollandsec h3, .englandsec h3, .scotlandsec h3, .icelandsec h3 {
+		display: none;
+	}
+
+	.hollandsec h4, .englandsec h4, .scotlandsec h4, .icelandsec h4 {
+		display: none;
+	}
+
+	.short {
+		display: none;
+	}
+
+	.hidden {
+		display: block;
+		width: 500px;
+		margin: 0 auto;
+	}
+
+	.hidden img, .hidden p {
+		width: 500px;
+		height: auto;
+	}
+
+	.hidden h4, .hidden h3 {
+		display: block;
+	}
+
+	.cutto {
+		margin-left: 400px;
+	}
+
+	.hollandsec, .englandsec, .scotlandsec, .icelandsec {
+		display: block;
+		width: 500px;
+		margin: 0 auto;
+	}
+
+	.hollandsec a:hover, .englandsec a:hover, .scotlandsec a:hover, .icelandsec a:hover {
+		text-decoration: none;
+		color: purple;
+	}
+
+	.hollandsec a, .englandsec a, .scotlandsec a, .icelandsec a {
+		text-decoration: none;
+		color: black;
+	}
+}
+
+@media screen and (max-width: 618px) {
+	.main-head, .main-text {
+		font-size: 13px;
+		margin-right: 10px;
+	}
+
+	.image-box {
+		margin-left: 0px;
+	}
+
+	figure, #rotate-img {
+		height: 200px;
+		width: auto;
+	}
+
+	figcaption {
+		font-size: 10px;
+	}
+
+	.top {
+		width: 100%;
+		height: 320px;
+		background-color: #A29DB5;
+	}
+
+	.europe {
+		height: auto;
+		width: 600px;
+		margin: 0 auto;
+	}
+
+	.europe img {
+		height: 250px;
+		margin-top: 20px;
+		float: left;
+	}
+
+	.intro {
+		padding-left: 10px;
+		margin-top: 2px;
+		float: left;
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 550px) {
 	nav ul {
 		padding: 0px, 0px;
 		text-align: center;
@@ -200,4 +343,96 @@ figcaption {
 		width: 100%;
 		float: left;
 		text-align: center;
+		font-size: 13px;
 	}
+
+	.hidden, .hidden img, .hidden p, .hidden h3, .hidden h4 {
+		display: block;
+		width: 350px;
+		margin: 0 auto;
+	}
+
+	.hollandsec, .englandsec, .scotlandsec, .icelandsec {
+		display: block;
+		width: 350px;
+		margin: 0 auto;
+	}
+
+	.hidden p {
+		font-size: 13px;
+		margin-bottom: 15px;
+		margin-top: 10px;
+	}
+
+	.hidden h4 {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.cutto {
+		margin-left: 275px;
+		font-size: 12px;
+	}
+
+	.head h2 {
+		font-size: 18px;
+	}
+
+	.head h4 {
+		font-size: 16px;
+	}
+
+	.top {
+		width: 100%;
+		height: 320px;
+		background-color: #A29DB5;
+	}
+
+	.europe {
+		height: auto;
+		width: 400px;
+		margin: 0 auto;
+	}
+
+	.europe img {
+		height: 250px;
+		margin-top: 20px;
+		margin-left: 15px;
+		float: left;
+	}
+
+	.intro {
+		padding-left: 10px;
+		margin-top: 10px;
+		float: left;
+		font-size: 13px;
+		width: 50%;
+	}
+
+	.intro h2 {
+		font-size: 16px;
+	}
+
+	.icons {
+		width: 300px;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.hollandpic, .englandpic, .icelandpic .scotlandpic {
+		padding: 5px 5px;	
+	}
+
+	.hollandpic {
+		margin-left: 20px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+		figure, #rotate-img {
+		height: 150px;
+		width: auto;
+	}
+}
+
+
